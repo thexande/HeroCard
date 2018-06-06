@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0739DE120C76FBA00E835A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0739DE020C76FBA00E835A7 /* AppDelegate.swift */; };
+		B0739DE320C76FBA00E835A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0739DE220C76FBA00E835A7 /* ViewController.swift */; };
+		B0739DE620C76FBA00E835A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0739DE420C76FBA00E835A7 /* Main.storyboard */; };
+		B0739DE820C76FBB00E835A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0739DE720C76FBB00E835A7 /* Assets.xcassets */; };
+		B0739DEB20C76FBB00E835A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0739DE920C76FBB00E835A7 /* LaunchScreen.storyboard */; };
+		B0739DF620C76FBB00E835A7 /* HeroCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0739DF520C76FBB00E835A7 /* HeroCardTests.swift */; };
+		B0739E0120C76FBB00E835A7 /* HeroCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0739E0020C76FBB00E835A7 /* HeroCardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0739DF220C76FBB00E835A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0739DD520C76FBA00E835A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0739DDC20C76FBA00E835A7;
+			remoteInfo = HeroCard;
+		};
+		B0739DFD20C76FBB00E835A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0739DD520C76FBA00E835A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0739DDC20C76FBA00E835A7;
+			remoteInfo = HeroCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0739DDD20C76FBA00E835A7 /* HeroCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0739DE020C76FBA00E835A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0739DE220C76FBA00E835A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0739DE520C76FBA00E835A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0739DE720C76FBB00E835A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0739DEA20C76FBB00E835A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0739DEC20C76FBB00E835A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0739DF120C76FBB00E835A7 /* HeroCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0739DF520C76FBB00E835A7 /* HeroCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCardTests.swift; sourceTree = "<group>"; };
+		B0739DF720C76FBB00E835A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0739DFC20C76FBB00E835A7 /* HeroCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0739E0020C76FBB00E835A7 /* HeroCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCardUITests.swift; sourceTree = "<group>"; };
+		B0739E0220C76FBB00E835A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0739DDA20C76FBA00E835A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0739DEE20C76FBB00E835A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0739DF920C76FBB00E835A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0739DD420C76FBA00E835A7 = {
+			isa = PBXGroup;
+			children = (
+				B0739DDF20C76FBA00E835A7 /* HeroCard */,
+				B0739DF420C76FBB00E835A7 /* HeroCardTests */,
+				B0739DFF20C76FBB00E835A7 /* HeroCardUITests */,
+				B0739DDE20C76FBA00E835A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0739DDE20C76FBA00E835A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0739DDD20C76FBA00E835A7 /* HeroCard.app */,
+				B0739DF120C76FBB00E835A7 /* HeroCardTests.xctest */,
+				B0739DFC20C76FBB00E835A7 /* HeroCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0739DDF20C76FBA00E835A7 /* HeroCard */ = {
+			isa = PBXGroup;
+			children = (
+				B0739DE020C76FBA00E835A7 /* AppDelegate.swift */,
+				B0739DE220C76FBA00E835A7 /* ViewController.swift */,
+				B0739DE420C76FBA00E835A7 /* Main.storyboard */,
+				B0739DE720C76FBB00E835A7 /* Assets.xcassets */,
+				B0739DE920C76FBB00E835A7 /* LaunchScreen.storyboard */,
+				B0739DEC20C76FBB00E835A7 /* Info.plist */,
+			);
+			path = HeroCard;
+			sourceTree = "<group>";
+		};
+		B0739DF420C76FBB00E835A7 /* HeroCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0739DF520C76FBB00E835A7 /* HeroCardTests.swift */,
+				B0739DF720C76FBB00E835A7 /* Info.plist */,
+			);
+			path = HeroCardTests;
+			sourceTree = "<group>";
+		};
+		B0739DFF20C76FBB00E835A7 /* HeroCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0739E0020C76FBB00E835A7 /* HeroCardUITests.swift */,
+				B0739E0220C76FBB00E835A7 /* Info.plist */,
+			);
+			path = HeroCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0739DDC20C76FBA00E835A7 /* HeroCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0739E0520C76FBB00E835A7 /* Build configuration list for PBXNativeTarget "HeroCard" */;
+			buildPhases = (
+				B0739DD920C76FBA00E835A7 /* Sources */,
+				B0739DDA20C76FBA00E835A7 /* Frameworks */,
+				B0739DDB20C76FBA00E835A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeroCard;
+			productName = HeroCard;
+			productReference = B0739DDD20C76FBA00E835A7 /* HeroCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0739DF020C76FBB00E835A7 /* HeroCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0739E0820C76FBB00E835A7 /* Build configuration list for PBXNativeTarget "HeroCardTests" */;
+			buildPhases = (
+				B0739DED20C76FBB00E835A7 /* Sources */,
+				B0739DEE20C76FBB00E835A7 /* Frameworks */,
+				B0739DEF20C76FBB00E835A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0739DF320C76FBB00E835A7 /* PBXTargetDependency */,
+			);
+			name = HeroCardTests;
+			productName = HeroCardTests;
+			productReference = B0739DF120C76FBB00E835A7 /* HeroCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0739DFB20C76FBB00E835A7 /* HeroCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0739E0B20C76FBB00E835A7 /* Build configuration list for PBXNativeTarget "HeroCardUITests" */;
+			buildPhases = (
+				B0739DF820C76FBB00E835A7 /* Sources */,
+				B0739DF920C76FBB00E835A7 /* Frameworks */,
+				B0739DFA20C76FBB00E835A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0739DFE20C76FBB00E835A7 /* PBXTargetDependency */,
+			);
+			name = HeroCardUITests;
+			productName = HeroCardUITests;
+			productReference = B0739DFC20C76FBB00E835A7 /* HeroCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0739DD520C76FBA00E835A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Alexander Murphy";
+				TargetAttributes = {
+					B0739DDC20C76FBA00E835A7 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					B0739DF020C76FBB00E835A7 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = B0739DDC20C76FBA00E835A7;
+					};
+					B0739DFB20C76FBB00E835A7 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = B0739DDC20C76FBA00E835A7;
+					};
+				};
+			};
+			buildConfigurationList = B0739DD820C76FBA00E835A7 /* Build configuration list for PBXProject "HeroCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0739DD420C76FBA00E835A7;
+			productRefGroup = B0739DDE20C76FBA00E835A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0739DDC20C76FBA00E835A7 /* HeroCard */,
+				B0739DF020C76FBB00E835A7 /* HeroCardTests */,
+				B0739DFB20C76FBB00E835A7 /* HeroCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0739DDB20C76FBA00E835A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0739DEB20C76FBB00E835A7 /* LaunchScreen.storyboard in Resources */,
+				B0739DE820C76FBB00E835A7 /* Assets.xcassets in Resources */,
+				B0739DE620C76FBA00E835A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0739DEF20C76FBB00E835A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0739DFA20C76FBB00E835A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0739DD920C76FBA00E835A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0739DE320C76FBA00E835A7 /* ViewController.swift in Sources */,
+				B0739DE120C76FBA00E835A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0739DED20C76FBB00E835A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0739DF620C76FBB00E835A7 /* HeroCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0739DF820C76FBB00E835A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0739E0120C76FBB00E835A7 /* HeroCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0739DF320C76FBB00E835A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0739DDC20C76FBA00E835A7 /* HeroCard */;
+			targetProxy = B0739DF220C76FBB00E835A7 /* PBXContainerItemProxy */;
+		};
+		B0739DFE20C76FBB00E835A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0739DDC20C76FBA00E835A7 /* HeroCard */;
+			targetProxy = B0739DFD20C76FBB00E835A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0739DE420C76FBA00E835A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0739DE520C76FBA00E835A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0739DE920C76FBB00E835A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0739DEA20C76FBB00E835A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0739E0320C76FBB00E835A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0739E0420C76FBB00E835A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0739E0620C76FBB00E835A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9L49SS68XP;
+				INFOPLIST_FILE = HeroCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thexande.HeroCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0739E0720C76FBB00E835A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9L49SS68XP;
+				INFOPLIST_FILE = HeroCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thexande.HeroCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0739E0920C76FBB00E835A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9L49SS68XP;
+				INFOPLIST_FILE = HeroCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thexande.HeroCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroCard.app/HeroCard";
+			};
+			name = Debug;
+		};
+		B0739E0A20C76FBB00E835A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9L49SS68XP;
+				INFOPLIST_FILE = HeroCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thexande.HeroCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroCard.app/HeroCard";
+			};
+			name = Release;
+		};
+		B0739E0C20C76FBB00E835A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9L49SS68XP;
+				INFOPLIST_FILE = HeroCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thexande.HeroCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeroCard;
+			};
+			name = Debug;
+		};
+		B0739E0D20C76FBB00E835A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9L49SS68XP;
+				INFOPLIST_FILE = HeroCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thexande.HeroCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeroCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0739DD820C76FBA00E835A7 /* Build configuration list for PBXProject "HeroCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0739E0320C76FBB00E835A7 /* Debug */,
+				B0739E0420C76FBB00E835A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0739E0520C76FBB00E835A7 /* Build configuration list for PBXNativeTarget "HeroCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0739E0620C76FBB00E835A7 /* Debug */,
+				B0739E0720C76FBB00E835A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0739E0820C76FBB00E835A7 /* Build configuration list for PBXNativeTarget "HeroCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0739E0920C76FBB00E835A7 /* Debug */,
+				B0739E0A20C76FBB00E835A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0739E0B20C76FBB00E835A7 /* Build configuration list for PBXNativeTarget "HeroCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0739E0C20C76FBB00E835A7 /* Debug */,
+				B0739E0D20C76FBB00E835A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0739DD520C76FBA00E835A7 /* Project object */;
+}
