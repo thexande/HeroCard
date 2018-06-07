@@ -1,25 +1,23 @@
-//
-//  ViewController.swift
-//  HeroCard
-//
-//  Created by Alexander Murphy on 6/5/18.
-//  Copyright © 2018 Alexander Murphy. All rights reserved.
-//
-
 import UIKit
+import Hero
+import Anchorage
 
 class ViewController: UIViewController {
-
+    let card = Card()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        view.backgroundColor = .white
+        view.addSubview(card)
+        card.sizeAnchors == CGSize(width: 100, height: 200)
+        card.leadingAnchor == view.leadingAnchor + 24
+        card.topAnchor == view.topAnchor + 250
+        card.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tap)))
+        hero.isEnabled = true
+        HeroAutolayoutFixPlugin.enable()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @objc func tap() {
+        present(DetailViewController(), animated: true, completion: nil)
     }
-
-
 }
-
