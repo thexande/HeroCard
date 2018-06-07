@@ -19,6 +19,7 @@
 		B0739E1120C8D76A00E835A7 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0739E1020C8D76A00E835A7 /* Header.swift */; };
 		B0739E1320C8D78A00E835A7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0739E1220C8D78A00E835A7 /* Card.swift */; };
 		B0739E1520C8D7B200E835A7 /* HeroAutoLayoutExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0739E1420C8D7B200E835A7 /* HeroAutoLayoutExtension.swift */; };
+		B0739E1820C8DB3700E835A7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B0739E1720C8DB3700E835A7 /* README.md */; };
 		F6445CA26FEFFFCC5B8BE3D2 /* Pods_HeroCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F77335AB40FF19A0DDFF13E /* Pods_HeroCardTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		B0739E1020C8D76A00E835A7 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		B0739E1220C8D78A00E835A7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		B0739E1420C8D7B200E835A7 /* HeroAutoLayoutExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroAutoLayoutExtension.swift; sourceTree = "<group>"; };
+		B0739E1720C8DB3700E835A7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		D54DD5209787FEEA846BC11F /* Pods-HeroCardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroCardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeroCardTests/Pods-HeroCardTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ECC8F5E84190E66C9120E401 /* Pods-HeroCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroCardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeroCardTests/Pods-HeroCardTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,6 +122,7 @@
 		B0739DDF20C76FBA00E835A7 /* HeroCard */ = {
 			isa = PBXGroup;
 			children = (
+				B0739E1720C8DB3700E835A7 /* README.md */,
 				B0739DE020C76FBA00E835A7 /* AppDelegate.swift */,
 				B0739DE220C76FBA00E835A7 /* ViewController.swift */,
 				B0739DE720C76FBB00E835A7 /* Assets.xcassets */,
@@ -282,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0739E1820C8DB3700E835A7 /* README.md in Resources */,
 				B0739DEB20C76FBB00E835A7 /* LaunchScreen.storyboard in Resources */,
 				B0739DE820C76FBB00E835A7 /* Assets.xcassets in Resources */,
 			);
