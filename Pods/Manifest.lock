@@ -1,0 +1,20 @@
+PODS:
+  - Anchorage (4.2.2)
+  - Hero (1.2.0)
+
+DEPENDENCIES:
+  - Anchorage
+  - Hero
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Anchorage
+    - Hero
+
+SPEC CHECKSUMS:
+  Anchorage: cba8707ea6475f604e04047882ba47c07e4b2ac1
+  Hero: 33dadf2cd1c98af71e213dcbc2902e6e03622a4e
+
+PODFILE CHECKSUM: 3622187646b4932fd1e64e9c0756bdd023d68524
+
+COCOAPODS: 1.5.3
